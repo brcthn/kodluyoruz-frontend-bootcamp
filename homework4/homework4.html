@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+ <link rel="stylesheet" href="homework4.css">
+</head>
+<body>
+    <div id="currency">
+        <p>From:</p>
+         <select name="currency-dropdown-from" id="currency-dropdown-from">
+             <option value="select" id="currencybox-from" ></option>
+            <!-- <option value="GBP" id="currencybox-from"> GBP</option>
+            <option value="US" id="currencybox-from"> US</option> --> 
+        </select> 
+   
+        <p>To:</p>
+    
+        <select name="currency-dropdown-to"  id="currency-dropdown-to">
+            <option value="select" id="currencybox-to"></option>
+            <!-- <option value="GBP" id="currencybox-to"> GBP</option>
+            <option value="US" id="currencybox-to"selected> US</option>  -->
+        </select>
+     
+        <div class="currency-amount">
+            <label for="amount"></label>
+            <input type="text"name="amount" placeholder="Amount">
+        </div>
+        <div class="currency-calculate" id="calculate-button">
+            <button>Calculate</button>
+        </div>
+
+        <div class="currecy-result" id="currency-result">
+           
+        </div>
+    </div>
+    <script src="homework4.js"></script>
+</body>
+</html>

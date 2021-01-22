@@ -1,0 +1,53 @@
+:root {
+    --yellow: #FFC300;
+  }
+body{
+    background-image:url("currency.jpg");
+}
+#currency{
+width:500px;
+height:500px;
+margin:auto;
+margin-top:100px;
+border:2px solid black;
+text-align: center;
+background-color:black;
+opacity: 0.80;
+}
+div p{
+    margin-top: 30px;
+    color:#FF5733;
+}
+#currency-from{
+    margin-top: 30px;
+    color: var(--yellow);
+    font-size: 20px;
+}
+#currency-to{
+    margin-top: 30px;
+    color: var(--yellow);
+    font-size: 20px;
+}
+.currency-amount input{
+    margin-top:20px;
+    width:  50%;
+    height: 45px;
+    font-size:25px;
+    border:1px solid var(--yellow) ;
+    background-color:var(--yellow) ;  
+}
+.currency-calculate button{
+   width: 50%;
+   height: 30px;
+   margin:20px 0;
+   color: #FF5733;
+   background-color:#044658 ;
+   border:1px solid var(--yellow) 
+}
+.currecy-result{
+    margin-top:20px;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(163, 31, 4) ;
+}
