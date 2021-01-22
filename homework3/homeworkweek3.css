@@ -1,0 +1,29 @@
+#a:hover{
+    background-color:#FAD7A0 ;
+    color:white;
+}
+img{
+  margin-left:155px;
+  padding: 20px;
+  width: 1000px;
+  height: 600px;
+  display: none;
+}
+#petsproperty{
+  color: #196F3D ;
+  font-size: 20px;
+}
+tr td{
+  color: #D68910;
+  width: 50px;
+  font-size: 18px;
+}
+button{
+color:#D68910 ;
+width: 60px;
+}
+#petsTable{
+margin-top: 50px;
+margin-left: 550px;
+text-align: center;
+}
